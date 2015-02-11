@@ -1,0 +1,17 @@
+Names: Anurag Bittion, Liban Abdi Abukar
+Usernames: abitton, laabukar
+
+Interaction:
+- Drag and drop food categories into search space with "DRAG IT" message
+- Upon dropping, first datatable populates with food service locations that serve items falling into at least one of the categories dropped into the search space
+- Clicking on a "Location" name will populate the second datatable with menu items served by that location and fall into the categories in the search space
+- Datatables are fully searchable on any column and can be sorted on any column
+- All data shown is only for the current day
+- All data is shown and formated through JQuery Datatables
+
+Data:
+- UWaterloo Open API does not provide very much data on food service locations and thus our widget will not show very much data.
+- Despite the limited amount of data available, our widget has the potential to pull and show large volumes of data due to the scrolling capabilities
+  of the JQuery Datatables.
+
+*NOTE:* Our widget does not handle zooming and resizing very well as some div tags may move around if you try to zoom to far out or resize the window to be too small.

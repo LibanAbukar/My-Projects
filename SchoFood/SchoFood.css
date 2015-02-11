@@ -1,0 +1,71 @@
+.SchoFood_commonWidget{
+    width: 100%;
+    height: 50%;
+    border: 1px solid gray;
+    margin: 0;
+    padding: 0;
+    background: beige;
+}
+
+.SchoFood_subCommonWidget{
+    width: 148px;
+    height: 110px;
+    border: 1px solid gray;
+    background: ivory;
+}
+
+.SchoFood_category{
+    text-align: center;
+    display: table;
+    width: 50%;
+    height: 50%;
+    background: goldenrod;
+    border: 1px solid gray;
+
+}
+
+.SchoFood_searchspace{
+    text-align: center;
+    display: table;
+    width: 50%;
+    height: 50%;
+    background: limegreen;
+    border: 1px solid gray;
+}
+
+#SchoFood_Searches {
+    float: left;
+    display: table;
+}
+#SchoFood_Choices{
+    float: right;
+}
+
+#SchoFood_DragDrop{
+    top: 0px;
+    border: 1px solid gray;
+
+}
+
+#SchoFood_infoTable{
+     bottom: 0px;
+     border: 1px solid gray;;
+}
+
+#SchoFood_infoTable2{
+    bottom: 0px;
+    border: 1px solid gray;;
+}
+
+th, td { white-space: nowrap; }
+div.SchoFood_foodLocationInfo_wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#SchoFood_dragit{
+    display: table-cell;
+    vertical-align: middle;
+    color: lightgrey;
+    text-align: center;
+}
